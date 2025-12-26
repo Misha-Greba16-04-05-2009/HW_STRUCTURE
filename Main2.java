@@ -1,4 +1,5 @@
 package org.example;
+
 import java.util.Scanner;
 import ru.netology.service.CustomsService;
 
@@ -13,7 +14,6 @@ public class Main2 {
         int weight = scanner.nextInt();
 
         int customsDuty = CustomsService.calculateCustoms(price, weight);
-
         System.out.println("Размер пошлины (в руб.) составит: " + customsDuty);
     }
 }
